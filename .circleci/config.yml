@@ -193,11 +193,4 @@ workflows:
             branches:
               ignore:
                 - master
-
-      - integration:
-          requires:
-            - documentation
-          filters:
-            branches:
-              ignore:
-                - master
+                
