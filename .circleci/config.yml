@@ -128,7 +128,7 @@ jobs:
           at: ~/design-system
       - run:
           name: Check component bundle sizes
-          command: SIZE_TABLE=`yarn --silent size --ci` && npx auto comment --message "$SIZE_TABLE" --context bundle
+          command: yarn --silent size
 
   a11y:
     <<: *defaults
