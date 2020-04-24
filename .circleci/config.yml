@@ -195,11 +195,11 @@ workflows:
           requires:
             - build
 
-      - a11y:
-          requires:
-            - documentation
-          filters:
-            branches:
-              ignore:
-                - master
+      # - a11y:
+      #     requires:
+      #       - documentation
+      #     filters:
+      #       branches:
+      #         ignore:
+      #           - master
 
