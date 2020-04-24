@@ -165,13 +165,30 @@ workflows:
           requires:
             - build
 
+      - documentation:
+          requires:
+            - unit-tests
+            - lint
+
+      - release:
+          requires:
+            - documentation
+          filters:
+            branches:
+              only:
+                - master
+
       - size:
           requires:
-            - build
+            - documentation
+          filters:
+            branches:
+              ignore:
+                - master
 
       - a11y:
           requires:
-            - build
+            - documentation
           filters:
             branches:
               ignore:
