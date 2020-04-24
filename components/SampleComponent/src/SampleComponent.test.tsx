@@ -1,10 +1,10 @@
 import React from 'react';
 import { render } from '@testing-library/react';
-import Link from '.';
+import SampleComponent from '.';
 
-describe('Link', () => {
+describe('SampleComponent', () => {
   test('It matches the snapshot', () => {
-    const { container } = render(<Link />);
+    const { container } = render(<SampleComponent />);
     expect(container).toMatchSnapshot();
   });  
 });

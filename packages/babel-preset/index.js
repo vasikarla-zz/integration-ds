@@ -7,6 +7,6 @@ module.exports = function(api) {
   return {
     // The plugin should not be loaded in test environments. If it is it could
     // mess with imports inside tests.
-    plugins: [!isTest && [importPlugin, { scope: 'integration-ds' }]].filter(Boolean)
+    plugins: [!isTest && [importPlugin, { scope: 'raj-ds' }]].filter(Boolean)
   };
 };

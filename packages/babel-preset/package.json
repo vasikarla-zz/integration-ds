@@ -1,9 +1,9 @@
 {
-  "name": "@integration-ds/babel-preset",
-  "description": "Automatically load the css for the @integration-ds design system.",
+  "name": "@raj-ds/babel-preset",
+  "description": "Automatically load the css for the @raj-ds design system.",
   "version": "0.0.0",
   "main": "index.js",
-  "repository": "https://github.com/design-systems-templates/integration-ds",
+  "repository": "git@github.com:vasikarla/raj-ds.git",
   "license": "MIT",
   "files": [
     "dist",

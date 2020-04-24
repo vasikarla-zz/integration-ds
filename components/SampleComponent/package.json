@@ -1,10 +1,10 @@
 {
-  "name": "@integration-ds/link",
+  "name": "@raj-ds/sample-component",
   "version": "0.0.0",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
   "types": "./dist",
-  "repository": "https://github.com/design-systems-templates/integration-ds",
+  "repository": "git@github.com:vasikarla/raj-ds.git",
   "author": "Raj Vasikarla raj_vasikarla@intuit.com",
   "contributors": ["Raj Vasikarla raj_vasikarla@intuit.com"],
   "license": "MIT",

@@ -1,13 +1,13 @@
-# @integration-ds/babel-preset
+# @raj-ds/babel-preset
 
-Automatically load the css for the @integration-ds design system.
+Automatically load the css for the @raj-ds design system.
 
 ## Installation
 
 ```sh
-npm i --save-dev @integration-ds/babel-preset
+npm i --save-dev @raj-ds/babel-preset
 # or
-yarn add -D @integration-ds/babel-preset
+yarn add -D @raj-ds/babel-preset
 ```
 
 ## Usage
@@ -16,7 +16,7 @@ yarn add -D @integration-ds/babel-preset
 
 ```json
 {
-  "presets": ["@integration-ds/babel-preset"]
+  "presets": ["@raj-ds/babel-preset"]
 }
 ```
 
@@ -25,12 +25,12 @@ yarn add -D @integration-ds/babel-preset
 Input:
 
 ```js
-import Card from '@integration-ds/card';
+import Card from '@raj-ds/card';
 ```
 
 Output:
 
 ```js
-import Card from '@integration-ds/card';
-import '@integration-ds/card/dist/main.css';
+import Card from '@raj-ds/card';
+import '@raj-ds/card/dist/main.css';
 ```

@@ -1,4 +1,4 @@
-const integrationDs = require('./packages/babel-preset');
+const rajDs = require('./packages/babel-preset');
 
 module.exports = api => {
   const env = api.env();
@@ -11,6 +11,6 @@ module.exports = api => {
   api.cache(true);
 
   return {
-    presets: [isStorybook && integrationDs].filter(Boolean) 
+    presets: [isStorybook && rajDs].filter(Boolean) 
   };
 };
