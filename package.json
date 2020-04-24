@@ -23,7 +23,7 @@
     "build": "lerna run build --stream",
     "build:storybook": "ds storybook build",
     "build:playroom": "ds playroom build",
-    "size": "ds size --ignore @integration-ds/babel-preset "
+    "size": "ds size --ignore @integration-ds/babel-preset"
   },
   "workspaces": [
     "components/*",
