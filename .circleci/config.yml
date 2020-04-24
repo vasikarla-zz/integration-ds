@@ -112,6 +112,15 @@ jobs:
           name: Release
           command: yarn release
 
+  storybook:
+    <<: *defaults
+    steps:
+      - attach_workspace:
+          at: ~/design-system
+      - run:
+          name: Storybook
+          command: yarn build:storybook
+
   size:
     <<: *defaults
     steps:
@@ -179,6 +188,10 @@ workflows:
                 - master
 
       - size:
+          requires:
+            - build
+
+      - storybook:
           requires:
             - build
 
