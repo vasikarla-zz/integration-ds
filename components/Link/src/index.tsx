@@ -8,7 +8,7 @@ interface LinkProps {
 
 /** A simple component. */
 export const Link = (props: LinkProps) => {
-  return <div className={styles.link}>This is a Link component {props.value}</div>;
+  return <a className={styles.link} href="http://www.google.com">This is a Link component {props.value}</a>;
 }
 
 export default Link;
