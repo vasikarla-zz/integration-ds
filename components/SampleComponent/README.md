@@ -1,19 +1,19 @@
-# @raj-ds/sample-component
+# @integration-ds/sample-component
 
 Welcome to my `SampleComponent` component.
 
 ## Installation
 
 ```sh
-npm i @raj-ds/sample-component
+npm i @integration-ds/sample-component
 # or with yarn
-yarn add @raj-ds/sample-component
+yarn add @integration-ds/sample-component
 ```
 
 Then to use the component in your code just import it!
 
 ```js
-import SampleComponent from '@raj-ds/sample-component';
+import SampleComponent from '@integration-ds/sample-component';
 // and with css-modules
-import '@raj-ds/sample-component/dist/main.css';
+import '@integration-ds/sample-component/dist/main.css';
 ```

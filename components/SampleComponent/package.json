@@ -1,14 +1,18 @@
 {
-  "name": "@raj-ds/sample-component",
+  "name": "@integration-ds/sample-component",
   "version": "0.0.0",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
   "types": "./dist",
-  "repository": "git@github.com:vasikarla/raj-ds.git",
+  "repository": "git@github.com:vasikarla/integration-ds.git",
   "author": "Raj Vasikarla raj_vasikarla@intuit.com",
-  "contributors": ["Raj Vasikarla raj_vasikarla@intuit.com"],
+  "contributors": [
+    "Raj Vasikarla raj_vasikarla@intuit.com"
+  ],
   "license": "MIT",
-  "sideEffects": ["*.css"],
+  "sideEffects": [
+    "*.css"
+  ],
   "scripts": {
     "clean": "ds clean",
     "build": "ds build",

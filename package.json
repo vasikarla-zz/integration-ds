@@ -1,7 +1,7 @@
 {
-  "name": "@raj-ds/monorepo",
+  "name": "@integration-ds/monorepo",
   "private": true,
-  "repository": "git@github.com:vasikarla/raj-ds.git",
+  "repository": "git@github.com:design-systems-templates/integration-ds.git",
   "author": "Raj Vasikarla raj_vasikarla@intuit.com",
   "contributors": [
     "Raj Vasikarla raj_vasikarla@intuit.com"

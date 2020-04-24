@@ -1,12 +1,12 @@
 <div align="center">
-  <h1>raj-ds</h1>
+  <h1>integration-ds</h1>
 </div>
 
-> A design system for raj-ds UI components, built on [@design-systems/cli](https://github.com/intuit/design-systems-cli).
+> A design system for integration-ds UI components, built on [@design-systems/cli](https://github.com/intuit/design-systems-cli).
 
 ## 👍 Philosophy
 
-This is a design system intended for UI components currently being built or tested in raj-ds.
+This is a design system intended for UI components currently being built or tested in integration-ds.
 
 Included with this repo:
 
@@ -26,18 +26,18 @@ Components in this repository will ideally not clone functionality from other de
 
 To use a component from this repo you will first need to install the component into your project.
 
-For an example we will try to use the `@raj-ds/card` component.
+For an example we will try to use the `@integration-ds/card` component.
 
 ```sh
-npm i @raj-ds/card
+npm i @integration-ds/card
 # or with yarn
-yarn add @raj-ds/card
+yarn add @integration-ds/card
 ```
 
 Then to use the component in your code just import it!
 
 ```js
-import Card from '@raj-ds/card';
+import Card from '@integration-ds/card';
 ```
 
 ### :nail_care: CSS
@@ -45,8 +45,8 @@ import Card from '@raj-ds/card';
 To use the components you have to import the `css` files along with the components.
 
 ```js
-import Card from '@raj-ds/card';
-import '@raj-ds/card/dist/main.css';
+import Card from '@integration-ds/card';
+import '@integration-ds/card/dist/main.css';
 ```
 
 Or you can use our babel preset to do this automatically for you.
@@ -54,20 +54,20 @@ Or you can use our babel preset to do this automatically for you.
 First install the preset
 
 ```sh
-npm i --save-dev @raj-ds/babel-preset
+npm i --save-dev @integration-ds/babel-preset
 # or
-yarn add -D @raj-ds/babel-preset
+yarn add -D @integration-ds/babel-preset
 ```
 
 In your babel config add the following preset:
 
 ```json
 {
-  "presets": ["@raj-ds/babel-preset"]
+  "presets": ["@integration-ds/babel-preset"]
 }
 ```
 
-Now whenever you import one of the `@raj-ds` components, `babel` will automatically include the correct CSS file!
+Now whenever you import one of the `@integration-ds` components, `babel` will automatically include the correct CSS file!
 
 ## 🤝 Contributing
 
