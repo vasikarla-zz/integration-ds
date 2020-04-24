@@ -180,11 +180,7 @@ workflows:
 
       - size:
           requires:
-            - documentation
-          filters:
-            branches:
-              ignore:
-                - master
+            - build
 
       - a11y:
           requires:
